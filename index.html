@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Project</title>
+</head>
+<body>
+  
+  <div class="container">
+    <!--Email Sidebar-->
+    <div class="sidebar">
+      <div class="profile">
+    <!--Icon Image with Hover Capability-->    
+      <img class="icon" src="assets/person icon.png" alt="user icon">
+      <p>Welcome, Shavese!</p>
+      </div>
+      <!--Compose Button with Hover Capability-->
+      <button class="compose">Compose</button>
+      <!--Menu of Sidebar Options with Highlight Hover Capability-->
+       <div class= "menu">
+      <!--Inbox Selection with Highlight Hover Capability and Inbox Color Notification-->  
+        <div class="Inbox">Inbox<span style="color: rgb(233, 196, 127);"> (1)</span></div><br>
+      <!--Tagged, Important, Sent Mail, Drafts and Trash with Highlight Hover Capability-->  
+        <div class="Tagged">Tagged</div><br>
+        <div class="Important">Important</div><br>
+        <div class="Sent-Mail">Sent Mail</div><br>
+        <div class="Drafts">Drafts</div><br>
+        <div class="Trash">Trash</div>
+       </div>
+    </div>
+      <!--Email List-->
+    <div class="email-list">
+     <!--Email Search Bar--> 
+      <input type="text" class="search-bar" placeholder="Search For Emails">
+     <!--First Email Preview--> 
+      <div class="email-preview">
+        <div class="email-header">
+           <span class="email-title">LinkedIn</span>
+           <span class="emai-time">02:45 PM</span>
+        </div>
+        <div class="email-content"> You have a new connection Request</div>
+        </div>
+      <!--Second Email Preview with Highlight-->  
+      <div class="email-preview highlighted">
+        <div class="email-header">
+          <span class="email-title">Michael Scott Daily Quote</span>
+          <span class="email-time">Jul 3, 2020</span>
+        </div>
+        <div class="email-content">I'm optimistic because everyday I get a...</div>
+        </div>
+      <!--Third Email Preview-->  
+      <div class="email-preview"> 
+        <div class="email-header">
+          <span class="email-title">Lemar Software</span>
+          <span class="email-time">Feb 9, 2020</span>
+        </div>
+        <div class="email-content">Learn how you can give us money by...</div>
+    </div>
+   </div>
+
+      <!--Email Form-->
+   <div class="email-form">
+    <p>To: taylor@lamarsoftware.io</p>
+    <p>From: re-reply@theofficenbc.com</p>
+    <h1>Michael Scott Daily Quotes</h1>
+    <div class="quotes">
+        <p>“Friends joke with one another. ‘Hey, your momma’s dead.’ That’s what friends do.”</p>
+        <p>“It’s a good thing Russia doesn’t exist anymore.”</p>
+        <p>“You cheated on me? When I specifically asked you not to?”</p>
+        <p>“It just seems awfully mean. But sometimes, the ends justify the mean.”</p>
+        <p>“Reverse psychology is an awesome tool. I don’t know if you guys know about it, but basically, you make someone think the opposite of what you believe, and that tricks them into doing something stupid. Works like a charm.”</p>
+    </div>
+    <!--Email Textbox with Submit Button-->
+    <form>
+        <textarea placeholder="Enter Message..."></textarea>
+        <button type="submit">Send Email</button>
+    </form>
+</div>
+</div>
+</body>
+</html>
